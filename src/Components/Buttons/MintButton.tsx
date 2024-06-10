@@ -19,7 +19,7 @@ const MintButton: React.FC<ButtonProps> = ({ size = "normal", sx = {} }) => {
   };
 
   const handleButtonClick = () => {
-    const url = "https://mint.webmint.io/cgc-membership";
+    const url = "https://opensea.io/collection/cgc-membership";
     openInNewWindow(url);
   };
   return (

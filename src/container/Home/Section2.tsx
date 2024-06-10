@@ -16,7 +16,7 @@ function Section2() {
   return (
     <Container
       sx={{
-        height: "60vh",
+        height: "40vh",
         mb: 20,
         [theme.breakpoints.up("sm")]: {
           height: "70vh",
